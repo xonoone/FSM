@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Field Service Management</string>
+    <string name="short_app_name">FSM</string>
+
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="no_data">Нет данных</string>
+    <string name="icon_hide_pass_description">Скрыть пароль</string>
+    <string name="icon_show_pass_description">Показать пароль</string>
+    <string name="pick_date">Выберите дату</string>
+    <string name="pick_time">Выберите время</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="clear">Очистить</string>
+    <string name="sign_in">Войти</string>
+    <string name="accept">Принять</string>
+    <string name="reject">Отклонить</string>
+    <string name="region_of_work">Регион работы</string>
+    <!--  App Bar  -->
+    <string name="orders">Заявки</string>
+    <string name="profile">Профиль</string>
+    <string name="change_pass">Изменение пароля</string>
+
+    <string name="icon_nav_menu_description">Меню навигации</string>
+    <string name="icon_filter_description">Фильтр заявок</string>
+    <string name="tab_actual">Актуальные</string>
+    <string name="tab_new">Новые</string>
+    <string name="filter_param_today">Сегодня</string>
+    <string name="filter_param_tomorrow">Завтра</string>
+    <string name="filter_param_week">Неделю</string>
+    <string name="filter_param_period">Период</string>
+    <string name="filter_param_sort_early">Ранних заявок</string>
+    <string name="filter_param_sort_recent">Поздних заявок</string>
+    <string name="category_filters">Фильтры</string>
+    <string name="category_clear_all">Сбросить всё</string>
+    <string name="category_sort">Сортировка</string>
+    <string name="start">Начало</string>
+    <string name="end">Конец</string>
+    <string name="category_filters_period">Показать заявки на</string>
+    <string name="no_orders_message">У Вас пока нет заявок</string>
+    <string name="user_image_description">Фотография пользователя</string>
+    <string name="archive">Архив</string>
+    <string name="apply">Применить</string>
+    <string name="category_filters_status">Статус заявки</string>
+    <string name="order_status_completed">завершено</string>
+    <string name="order_status_canceled">отменено</string>
+    <string name="order_status_rejected">отклонено</string>
+    <string name="order_status_new">новая</string>
+    <string name="order_status_inroad">в пути</string>
+    <string name="order_status_active">в работе</string>
+    <string name="order_status_accepted">принято</string>
+    <string name="order_status_suspend">на паузе</string>
+    <string name="app_bar_profile">Профиль</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="user_buttom_change_pass">Изменить пароль</string>
+    <string name="user_buttom_exit">Выйти</string>
+    <string name="change">Изменить</string>
+    <string name="login_length_error">Логин не должен быть пустым</string>
+
+    <!--  Change Password Screen (fields)  -->
+    <string name="app_bar_change_pass">Изменение пароля</string>
+
+    <string name="create_password">Придумайте новый пароль</string>
+    <string name="confirm_password">Повторите новый пароль</string>
+
+    <string name="password_missmatch">Пароли не совпадают</string>
+    <string name="password_length_error">Неверная длинна пароля</string>
+    <!--  Change Password Screen (confirm)  -->
+    <string name="app_bar_confirm">Подтверждение</string>
+
+    <string name="confirm_password_email">Введите код из письма, которое мы отправили вам на почту</string>
+    <string name="button_send_code">Отправить код повторно</string>
+
+    <string name="confirm">Подтвердить</string>
+    <string name="description">Описание</string>
+    <string name="category_filters_sort">Начиная с</string>
+    <string name="button_add_name">Добавить</string>
+    <string name="add_doc">Загрузить документ</string>
+    <string name="add_photo">Загрузить фото</string>
+    <string name="unexpected_error">Непредвиденная ошибка. Попробуйте позже</string>
+    <string name="client">Клиент</string>
+    <string name="additional_contact">Дополнительный контакт</string>
+    <string name="copy_address">Скопировать адрес</string>
+    <string name="copied">Скопированно</string>
+    <string name="task">Задача</string>
+    <string name="done">Выполнено</string>
+    <string name="rubles">рублей</string>
+    <string name="order">Заказ</string>
+    <string name="address">Адрес</string>
+    <string name="leave_for_work">Выехать</string>
+    <string name="get_started">Начать</string>
+    <string name="report">Отчет</string>
+    <string name="cancel">Отменить</string>
+    <string name="single_list">Единичный список</string>
+    <string name="multiple_list">Множественный список</string>
+    <string name="error_dialog_title">Произошла ошибка</string>
+    <string name="failure_dialog_alert_retry_request">повторить</string>
+    <string name="retry_request">Повторить запрос?</string>
+
+    <string name="dialog_title_connection_timeout">Превышего время ожидания</string>
+    <string name="dialog_title_report_close">Завершение заявки</string>
+
+    <string name="dialog_title_order">Заявка</string>
+    <string name="dialog_body_reject">Вы хотите отклонить заявку?</string>
+
+    <string name="error_message_connection_timeout">Проверьте интернет соединение и повторите запрос. Повторить запрос?</string>
+    <string name="error_message_eternal">Произошла непредвиденная ошибка со стороны сервера. Пожалуйста попробуйте позже</string>
+    <string name="error_message_memory">"Вы пытаетесь загрузить слишком большой объём файлов"</string>
+    <string name="error_message_access">У вас недостаточно прав для проведения этой операции</string>
+    <string name="error_message_unauthorized">Необходимо авторизоваться для продолжения</string>
+    <string name="error_message_token_expired">Время действия авторизации истекло. Повторите вход в систему</string>
+    <string name="error_message_blocked_user">Ваша учётная запись была заблокирована в системе</string>
+    <string name="error_message_fields_empty">Вы должны заполнить все поля</string>
+    <string name="error_message_report_close">Завершение заявки еще не закончилось. Пожалуйста подождите</string>
+
+    <string name="button_add_file">Добавить файл</string>
+    <string name="button_add_photo">Добавить фотографию</string>
+    <string name="button_retry">Повторить</string>
+    <string name="permission_title">Разрешение</string>
+    <string name="document_description">Чтобы прикрепить файл, требуется разрешение</string>
+    <string name="camera_description">Чтобы прикрепить фотографию, требуется разрешение</string>
+    <string name="location_description">Для определения геолокация, требуется разрешение</string>
+    <string name="push_description">Для уведомлений, требуется разрешение</string>
+    <string name="button_add_doc">Добавить документ</string>
+    <string name="complete">Готово</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="middle_name">Отчество</string>
+    <string name="order_completed_message">Заявка была завершена</string>
+    <string name="title_reason_dialog">Укажите причину отмены:</string>
+    <string name="ok">ОК</string>
+    <string name="cancel_dialog">ОТМЕНА</string>
+    <string name="no_orders">Заявки не найдены</string>
+    <string name="dialog_title_change_status">Статус заявки был изменен!</string>
+    <string name="error_message_user_not_founded">Пользователь не найден</string>
+    <string name="error_message_user_password_incorrect">Неверный пароль</string>
+    <string name="no">НЕТ</string>
+    <string name="yes">ДА</string>
+    <string name="default_notification_channel_id">1</string>
+</resources>

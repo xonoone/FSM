@@ -1,0 +1,51 @@
+package dev.fsm.ui.components.order.info
+
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import dev.fsm.R
+import dev.fsm.ui.components.fields.global.Category
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
+
+@Composable
+fun OrderDateField(
+    modifier: Modifier = Modifier,
+    title: String,
+    content: LocalDate?
+) {
+    val date = content?.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT))
+    Category(
+        modifier = modifier,
+        name = title
+    ) {
+        Text(
+            modifier = Modifier,
+            text = date ?: stringResource(id = R.string.no_data),
+            style = MaterialTheme.typography.bodyMedium
+        )
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun DateFieldPreview() {
+    Surface(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+    ) {
+        OrderDateField(
+            title = "Дата",
+            content = LocalDate.now()
+        )
+    }
+}
